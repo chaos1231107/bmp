@@ -30,5 +30,5 @@ void loop() {
   }
   float cali_altitude = altitude - init_altitude;
   Serial.println(cali_altitude);
-  delay(100);
+  delay(1000);
 }
